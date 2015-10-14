@@ -17,8 +17,6 @@ function init(){
 var imgselector=document.querySelectorAll("img");
     //console.log(imgselector);
     for (var i=0;i<imgselector.length;i++){
-     
-        //console.log(imgselector[i].getAttribute("id"));
         imgselector[i].addEventListener("mouseover",swapImg,false);
         imgselector[i].addEventListener("mouseout",swapImg,false);
     }
